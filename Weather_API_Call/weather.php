@@ -7,7 +7,7 @@ Izmantojot pārbaudes darbā iegūtās zināšanas.
  */
 
 // API KEY
-$apiKey = 'd351ae49b12e5924df985c7ed25999ce';
+$apiKey = '';
 
 // A function to read data from an apiURL and @ is used to suppress warnings for invalid data inputs.
 function getWeather(string $city, string $apiKey): string
