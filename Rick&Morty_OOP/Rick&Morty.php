@@ -19,6 +19,7 @@ class Episode
     {
         return $this->id;
     }
+
     public function getName(): string
     {
         return $this->name;
@@ -88,6 +89,7 @@ class EpisodeList
         return $this->episodeList;
     }
 }
+
 class RatingManager
 {
     private array $episodeRatings = [];
@@ -126,6 +128,7 @@ class RatingManager
         $this->saveEpisodeRatings();
 
     }
+
     public function saveRatingsToFile(array $episodes): void
     {
         $ratings = [];
